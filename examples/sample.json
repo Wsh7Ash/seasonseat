@@ -1,0 +1,16 @@
+{
+  "people": [{"id": "alice"}, {"id": "bob"}, {"id": "carol"}, {"id": "dave"}],
+  "seats": [
+    {"id": "F1", "row": 0, "col": 0, "quality": 10},
+    {"id": "F2", "row": 0, "col": 1, "quality": 9},
+    {"id": "F3", "row": 0, "col": 2, "quality": 8},
+    {"id": "M1", "row": 1, "col": 0, "quality": 6},
+    {"id": "M2", "row": 1, "col": 1, "quality": 5},
+    {"id": "M3", "row": 1, "col": 2, "quality": 4},
+    {"id": "B1", "row": 2, "col": 0, "quality": 3},
+    {"id": "B2", "row": 2, "col": 1, "quality": 2},
+    {"id": "B3", "row": 2, "col": 2, "quality": 1}
+  ],
+  "events": 3,
+  "conflicts": [["alice", "bob"]]
+}
